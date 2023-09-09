@@ -14,5 +14,5 @@ const currentDay = weekDay[currentDate.getDay()];
 
 const time = document.querySelector("#currentUTCTime");
 const dayOfTheWeek = document.querySelector("#currentDayOfTheWeek");
-time.innerHTML = `${currentTime} ms`;
+time.innerHTML = currentTime;
 dayOfTheWeek.innerHTML = currentDay;
